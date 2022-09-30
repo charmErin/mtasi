@@ -1,0 +1,182 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+#body_contents {
+    width: 80%;
+    height: 600px;
+}
+
+/* 메인 목록 */
+#main_contents {
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+}
+
+#header {
+    padding: 20px;
+    height: 50px;
+    display: flex;
+    /* box-shadow: 1px 1px 3px 1px darkgray; */
+}
+
+#header div {
+    display: inline-block;
+}
+
+#header_left {
+    flex: 1;
+    background-color: gray;
+    height: 40px;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 1px 1px 3px 1px darkgray inset;
+}
+
+#header_center {
+    flex: 3;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: -6px; */
+    border-color: darkgray;
+}
+
+#header_right {
+    flex: 1;
+    background-color: gray;
+    height: 40px;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 1px 1px 3px 1px darkgray inset;
+}
+
+#hr_tag {
+    margin: 0;
+    padding: 0;
+    height: 0.5px;
+    background-color: gray;
+}
+
+#main {
+    height: 535px;
+    background-color: #f1f1f1;
+    /* box-shadow: 1px 1px 3px 1px darkgray; */
+}
+
+#main_div_0 {
+    padding: 15px 20px;
+}
+
+#main_div_1 {
+    height: 50px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+#main_div_2 {
+    height: 280px;
+    padding: 10px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+#main_div_3 {
+    height: 30px;
+    padding: 10px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
+#main_div_4 {
+    height: 30px;
+    padding: 10px;
+    background-color: blue;
+}
+
+
+/* 사이드 목록 */
+#side_contents {
+    width: 20%;
+    height: 600px;
+    position: absolute;
+    display: inline;
+    background-color: yellow;
+}
+
+#ul_list {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+#ul_list li {
+    width: auto;
+    height: inherit;
+    padding: 25px 0px 20px 20px;
+}
+
+#side_1 {
+    background-color: blue;
+}
+
+#side_2 {
+    background-color: dodgerblue;
+}
+
+#side_3 {
+    background-color: green;
+}
+
+#side_4 {
+    background-color: purple;
+}
+
+.sub_title {
+    font-size: 30px;
+    color: #fff;
+}
+
+#today_smp {
+    display: inline-block;
+    font-size: 50px;
+    color: orange;
+}
+
+.won {
+    display: inline;
+    color: #fff;
+}
+
+#change_num {
+    display: inline-block;
+    font-size: 55px;
+}
+
+#up_down_img {
+    display: inline;
+}
+
+#month_avg {
+    display: inline-block;
+    font-size: 55px;
+    color: orange;
+}
+
+#year_avg {
+    display: inline-block;
+    font-size: 55px;
+    color: orange;
+}
