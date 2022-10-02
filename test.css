@@ -31,6 +31,7 @@
     background-color: gray;
     height: 40px;
     font-size: 25px;
+    color: #fff;
     line-height: 41px;
     text-align: center;
     margin-top: 5px;
@@ -53,6 +54,7 @@
     background-color: gray;
     height: 40px;
     font-size: 25px;
+    color: #fff;
     line-height: 41px;
     text-align: center;
     margin-top: 5px;
@@ -79,7 +81,9 @@
 #main_div_1 {
     height: 50px;
     padding: 10px;
-    background-color: lightgreen;
+    font-size: 35px;
+    color: #fff;
+    background-color: dodgerblue;
 }
 
 #main_div_2 {
@@ -92,7 +96,10 @@
 #main_div_3 {
     height: 30px;
     padding: 10px;
-    background-color: lightgreen;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    background-color: lightgray;
     margin-bottom: 10px;
 }
 
@@ -109,7 +116,6 @@
     height: 600px;
     position: absolute;
     display: inline;
-    background-color: yellow;
 }
 
 #ul_list {
@@ -129,19 +135,19 @@
 }
 
 #side_1 {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.9);
 }
 
 #side_2 {
-    background-color: dodgerblue;
+    background-color: rgb(0, 0, 255, 0.7);
 }
 
 #side_3 {
-    background-color: green;
+    background-color: rgb(0, 0, 255, 0.5);
 }
 
 #side_4 {
-    background-color: purple;
+    background-color: rgb(0, 0, 255, 0.3);
 }
 
 .sub_title {
